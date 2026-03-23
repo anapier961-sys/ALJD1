@@ -1,0 +1,19 @@
+{
+  "name": "aljd1-chat",
+  "version": "1.0.0",
+  "description": "ALJD1 - AI Chat for World Problems",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.28.0",
+    "pg": "^8.11.3",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
